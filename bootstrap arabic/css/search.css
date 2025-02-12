@@ -1,0 +1,35 @@
+#filter {
+  cursor: pointer;
+}
+.filter-column {
+  display: none;
+}
+input:checked + span {
+  color: #bf40bf;
+}
+.card .card-horizontal .card-body p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.card-body {
+  min-width: 0;
+}
+@media (max-width: 767px) {
+  .card .img-square-wrapper img {
+    /*هذا هو مسار الصور في ملف log*/
+    width: 100%;
+  }
+  .card .card-top-image {
+    width: 100%;
+  }
+}
+@media (min-width: 768px) and (max-width: 998px) {
+  .card .card-horizontal .card-body .channel-img {
+    display: block;
+    margin-top: 10px;
+  }
+  .card .card-horizontal .card-body .channel-img {
+    margin-top: 0px !important;
+  }
+}

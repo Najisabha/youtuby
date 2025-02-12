@@ -1,0 +1,21 @@
+.watch-icon {
+  position: absolute;
+  bottom: 5px;
+  right: 20px;
+}
+.watch-icon i:hover {
+  cursor: pointer;
+}
+#more {
+  display: none;
+}
+.form-control:focus {
+  box-shadow: none;
+}
+.card-inner {
+  display: none;
+}
+.Reply {
+  background-color: blueviolet !important;
+  color: white !important;
+}
